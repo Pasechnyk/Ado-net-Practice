@@ -1,0 +1,5 @@
+C:\Users\Настя\source\repos\HospitalDbManager\obj\Debug\net5.0\HospitalDbManager.csproj.AssemblyReference.cache
+C:\Users\Настя\source\repos\HospitalDbManager\obj\Debug\net5.0\HospitalDbManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Настя\source\repos\HospitalDbManager\obj\Debug\net5.0\HospitalDbManager.AssemblyInfoInputs.cache
+C:\Users\Настя\source\repos\HospitalDbManager\obj\Debug\net5.0\HospitalDbManager.AssemblyInfo.cs
+C:\Users\Настя\source\repos\HospitalDbManager\obj\Debug\net5.0\HospitalDbManager.csproj.CoreCompileInputs.cache
