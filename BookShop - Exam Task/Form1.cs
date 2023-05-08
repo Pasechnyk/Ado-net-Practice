@@ -10,7 +10,12 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using BookShop.Entities;
 
-// Exam Task - Create Book Shop Application (В процесі)
+// Exam Task - Create Book Shop Application
+
+// Contains:
+// - login system
+// - books manager panel
+// - sales and discounts manager panel
 
 namespace BookShop
 {
@@ -54,7 +59,14 @@ namespace BookShop
             if (password == "0000")
             {
                 MainPanel form = new MainPanel();
-                this.Close();
+                
+                form.ShowDialog();
+            }
+            else if (password == "1111")
+            {
+                SalesPanel form = new SalesPanel();
+                
+                form.ShowDialog();
             }
             else
             {
@@ -63,6 +75,7 @@ namespace BookShop
             }
         }
 
+        // Exit the program
         private void ExitBtnClick(object sender, EventArgs e)
         {
             this.Close();
