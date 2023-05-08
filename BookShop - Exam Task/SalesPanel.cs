@@ -56,7 +56,7 @@ namespace BookShop
             booksSaleListBox.DataSource = books;
         }
 
-        // Print bill
+        // Print and save bill to directory
         private void PrintBillBtnClick(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(clientTextBox.Text) || 
@@ -65,7 +65,8 @@ namespace BookShop
                 MessageBox.Show("You have not completed entering data.");
                 return;
             }
-
+            
+            // saving
             SaveFileDialog saveFile = new SaveFileDialog();
             saveFile.DefaultExt = ".txt";
 
